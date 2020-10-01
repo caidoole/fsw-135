@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-const InventoryModel = require('../newDataBase/models/Inventory')
+const InventoryModel = require('./models/Inventory')
 
 mongoose.connect('mongodb://localhost:27017/ecommercedb', {
     useNewUrlParser: true,
