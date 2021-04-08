@@ -13,7 +13,7 @@ mongoose.connect('mongodb://localhost:27017/rockthevote',
     useCreateIndex: true,
     useFindAndModify: false
 }, 
-() => console.log("Connected too ~"));
+() => console.log("Connected too the VOTE"));
 
 app.use('/user', require('./router/authRouter'))
 
