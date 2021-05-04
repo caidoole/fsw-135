@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+.navbar{
+    
+}
+
+.link{
+    margin:5px;
+    font-size: 26px;
+}
+
+.link:hover{
+    font-size:31px;
+}
+
+.sign-in-link{
+    color:blue;
+    cursor:pointer;
+}
+
+.create-acct-link{
+    color:blue;
+    cursor:pointer;
+}
+
+.user-form{
+    padding:5px;
+}
